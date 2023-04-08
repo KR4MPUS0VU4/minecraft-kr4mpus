@@ -1,0 +1,67 @@
+.main-part-two {
+    font-family: rubik, helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.main-part-two a {
+    text-decoration: none;
+    color: #2c56a0;
+}
+
+.main-part-two a:hover {
+    text-decoration: underline;
+    color: #3a3a3a;
+}
+
+.main-part-game-process i {
+    padding-left: 50px;
+}
+
+.art-content {
+    font-family: rubik, helvetica, arial, sans-serif;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.art-content h1 {
+    border-bottom: 1px solid rgba(0 0 0 /0.4);
+    font-size: 24px;
+    font-weight: 500;
+    color: #3a3a3a;
+    padding: 6px 0;
+    margin: 18px 0 9px 0;
+}
+
+.main-part-purchase {
+    display: flex;
+}
+
+.purchase_img {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 38px;
+    float: right;
+}
+
+.purchase_img p {
+    font-size: 12px;
+    color: #3a3a3a;
+    font-weight: 400;
+}
+
+.purchase_img a {
+    color: #2c56a0;
+}
+
+.purchase_img a:hover {
+    color: #152a4f;
+    text-decoration: underline;
+}
+
+.main-part-stiv a{
+    font-size: 12px;
+    display: flex;
+}

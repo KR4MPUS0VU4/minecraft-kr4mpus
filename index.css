@@ -65,59 +65,6 @@
     margin: 20px 0;
 }
 
-.main-part-one {
-    font-family: rubik, helvetica, arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-}
-
-.main-part-text {
-    font-weight: 400;
-    margin-right: 10px;
-    margin-left: 1rem;
-    color: #000000;
-    line-height: 1.75;
-    overflow-wrap: break-word;
-    float: left;
-    width: 45%;
-    flex-direction: column;
-    font-size: 14px;
-    opacity: 0.9;
-}
-
-.main-part-text a {
-    text-decoration: none;
-    color: #2c56a0;
-}
-
-.main-part-text a:hover {
-    text-decoration: underline;
-    color: #3a3a3a;
-}
-
-.main-part-table img {
-    margin: 5px 10px 10px 10px;
-}
-
-.main-part-table {
-    display: flex;
-    text-align: center;
-    background: #f8f9fa;
-    width: 45%;
-    flex-direction: column;
-    border: 1px solid rgba(0 0 0 /0.4)
-}
-
-.main-part-table h2 {
-    color: #3a3a3a;
-    font-size: 15.12px;
-    margin: 2px 2px 0 2px;
-    padding: 10px 1px 10px 1px;
-    text-align: center;
-    background: #9370DB;
-    font-style: italic;
-}
-
 .body-table {
     line-height: 2;
     font-size: 80%;
@@ -152,29 +99,10 @@
     align-items: center;
 }
 
-.reference-about-game {
-    margin: 0 20px 20px 20px;
-    padding: 5px;
-    text-align: left;
-    font-style: italic;
-}
-
-.introduction-about-game {
-    margin: -30px 20px 20px 20px;
-    padding: 5px;
-    text-align: left;
-    font-style: italic;
-}
-
 .header-table h3 {
     margin-left: 10px;
     font-size: 12px;
     color: #3a3a3a;
-}
-
-.main-part-title {
-    display: flex;
-    flex-direction: row;
 }
 
 .img_pencil {
@@ -183,26 +111,6 @@
     margin: 7px;
     padding: 8px;
     color: #2c56a0;
-}
-
-.main-part-title h1 {
-    display: flex;
-    flex-grow: 1;
-    margin: 0 0 0 1rem;
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-    color: #3a3a3a;
-}
-
-.main-part-title a {
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 0.15px;
-    text-transform: uppercase;
-    color: #3a3a3a;
-    line-height: 16px;
 }
 
 .title-button {
@@ -219,10 +127,6 @@
 .title-button img {
     width: 13px;
     height: 13px;
-}
-
-.main-part-title a:hover {
-    color: #6d6d6d;
 }
 
 .body-table-background {
@@ -254,59 +158,6 @@
 }
 
 .body-table-background a:hover {
-    color: #152a4f;
-    text-decoration: underline;
-}
-
-.second a {
-    text-decoration: none;
-    color: #2c56a0;
-}
-
-.second a:hover {
-    text-decoration: underline;
-    color: #3a3a3a;
-}
-
-.art-content {
-    font-family: rubik, helvetica, arial, sans-serif;
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-}
-
-.art-content h1 {
-    border-bottom: 1px solid rgba(0 0 0 /0.4);
-    font-size: 24px;
-    font-weight: 500;
-    color: #3a3a3a;
-    padding: 6px 0;
-    margin: 18px 0 9px 0;
-}
-
-.main-part-purchase {
-    display: flex;
-}
-
-.purchase_img {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 38px;
-    float: right;
-}
-
-.purchase_img p {
-    font-size: 12px;
-    color: #3a3a3a;
-    font-weight: 400;
-}
-
-.purchase_img a {
-    color: #2c56a0;
-}
-
-.purchase_img a:hover {
     color: #152a4f;
     text-decoration: underline;
 }
@@ -374,13 +225,3 @@
     color: #3a3a3a;
 }
 
-.second {
-    font-family: rubik, helvetica, arial, sans-serif;
-    font-size: 14px;
-    line-height: 2;
-}
-
-.main-part-stiv a{
-    font-size: 12px;
-    display: flex;
-}

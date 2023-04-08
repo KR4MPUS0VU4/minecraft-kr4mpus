@@ -1,0 +1,95 @@
+.main-part-one {
+    font-family: rubik, helvetica, arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-part-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-part-title h1 {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 0 0 1rem;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #3a3a3a;
+}
+
+.main-part-title a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    line-height: 16px;
+}
+
+.main-part-title a:hover {
+    color: #6d6d6d;
+}
+
+.main-part-text {
+    font-weight: 400;
+    margin-right: 10px;
+    margin-left: 1rem;
+    color: #000000;
+    line-height: 1.75;
+    overflow-wrap: break-word;
+    float: left;
+    width: 45%;
+    flex-direction: column;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.main-part-text a {
+    text-decoration: none;
+    color: #2c56a0;
+}
+
+.main-part-text a:hover {
+    text-decoration: underline;
+    color: #3a3a3a;
+}
+
+.reference-about-game {
+    margin: 0 20px 20px 20px;
+    padding: 5px;
+    text-align: left;
+    font-style: italic;
+}
+
+.introduction-about-game {
+    margin: -30px 20px 20px 20px;
+    padding: 5px;
+    text-align: left;
+    font-style: italic;
+}
+
+.main-part-table {
+    display: flex;
+    text-align: center;
+    background: #f8f9fa;
+    width: 45%;
+    flex-direction: column;
+    border: 1px solid rgba(0 0 0 /0.4)
+}
+
+.main-part-table h2 {
+    color: #3a3a3a;
+    font-size: 15.12px;
+    margin: 2px 2px 0 2px;
+    padding: 10px 1px 10px 1px;
+    text-align: center;
+    background: #9370DB;
+    font-style: italic;
+}
+
+.main-part-table img {
+    margin: 5px 10px 10px 10px;
+}
