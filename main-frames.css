@@ -1,0 +1,34 @@
+.main-frames {
+    background: #f8f9fa;
+    padding: 0 20px 20px 20px
+}
+
+.center-right {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0 0 0 /0.4);
+    margin: 20px 0;
+}
+
+.border-frames {
+    width: 400px;
+    height: 1050px;
+    background: rgba(241 241 241);
+    padding: 24px;
+    border-radius: 2px;
+}
+
+.center-right-frames iframe {
+    width: 355px;
+    height: 950px;
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    border: 0
+}
+
+.border-lines {
+    border-bottom: 1px solid rgba(0 0 0 /0.4);
+}
+
