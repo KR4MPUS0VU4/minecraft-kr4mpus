@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+.general-background {
+    background-image: url(img/back.jpg);
+    height: auto;
+    width: auto;
+}
+
 .body {
     display: flex;
     font-family: rubik, helvetica, arial, sans-serif;
@@ -89,11 +95,11 @@
     color: #3a3a3a;
 }
 
-.rc img {
+.main-part-table img {
     margin: 5px 10px 10px 10px;
 }
 
-.rc {
+.main-part-table {
     display: flex;
     text-align: center;
     background: #f8f9fa;
@@ -102,7 +108,7 @@
     border: 1px solid rgba(0 0 0 /0.4)
 }
 
-.rc h2 {
+.main-part-table h2 {
     color: #3a3a3a;
     font-size: 15.12px;
     margin: 2px 2px 0 2px;
@@ -112,7 +118,7 @@
     font-style: italic;
 }
 
-.right {
+.body-table {
     line-height: 2;
     font-size: 80%;
     text-align: left;
@@ -121,28 +127,26 @@
     color: #2c56a0;
 }
 
-.right sup {
+.body-table li {
+    list-style-type: disc;
+}
+
+.body-table sup {
     font-size: 10px;
     color: #3a3a3a;
 }
 
-.right a {
+.body-table a {
     color: #2c56a0;
     text-decoration: none;
 }
 
-.right a:hover {
+.body-table a:hover {
     text-decoration: underline;
     color: #3a3a3a;
 }
 
-.left {
-    font-size: 14px;
-    font-family: rubik, helvetica, arial, sans-serif;
-    font-style: normal;
-}
-
-.rc_bottom {
+.table-results {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,9 +166,10 @@
     font-style: italic;
 }
 
-.left h3 {
+.header-table h3 {
     margin-left: 10px;
     font-size: 12px;
+    color: #3a3a3a;
 }
 
 .main-part-title {
@@ -220,7 +225,7 @@
     color: #6d6d6d;
 }
 
-.right_second {
+.body-table-background {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -231,12 +236,7 @@
     margin: 10px;
 }
 
-.left h3 {
-    color: #3a3a3a;
-    font-size: 12px;
-}
-
-.right_second a {
+.body-table-background a {
     font-size: 12.6px;
     line-height: 1;
     color: #2c56a0;
@@ -245,12 +245,7 @@
     font-weight: 700;
 }
 
-.right_second {
-    padding-left: 10px;
-    margin: 0;
-}
-
-.rc_bottom_grey {
+.table-results-grey {
     background: rgb(227, 227, 227);
     display: flex;
     justify-content: center;
@@ -258,7 +253,7 @@
     margin: 3px;
 }
 
-.right_second a:hover {
+.body-table-background a:hover {
     color: #152a4f;
     text-decoration: underline;
 }
@@ -316,7 +311,7 @@
     text-decoration: underline;
 }
 
-.right_second ul small a {
+.body-table-background ul small a {
     font-size: 10px;
     font-weight: 400;
 }
@@ -336,10 +331,11 @@
     margin: 2px 2px 5px 2px;
 }
 
-.right_second li {
+.body-table-background li {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    list-style-type: none;
 }
 
 .date-company {
@@ -361,11 +357,6 @@
 }
 
 .date-company sup a {
-    font-weight: 400;
-    font-size: 10px;
-}
-
-.release-date-table sup a {
     font-weight: 400;
     font-size: 10px;
 }
