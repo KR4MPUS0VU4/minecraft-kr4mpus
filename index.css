@@ -9,10 +9,9 @@
     line-height: 24.5;
     font-weight: 300;
     font-style: italic;
-
 }
 
-.center {
+.general-block {
     display: flex;
     flex-direction: row;
     background: #e6eff4;
