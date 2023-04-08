@@ -20,7 +20,7 @@
     border: 2px solid #e6eff4;
 }
 
-.center_left {
+.general-left-block {
     padding: 20px;
     margin-top: 25px;
 }
@@ -59,13 +59,13 @@
     margin: 20px 0;
 }
 
-.first {
+.main-part-one {
     font-family: rubik, helvetica, arial, sans-serif;
     display: flex;
     flex-direction: column;
 }
 
-.lc {
+.main-part-text {
     font-weight: 400;
     margin-right: 10px;
     margin-left: 1rem;
@@ -79,12 +79,12 @@
     opacity: 0.9;
 }
 
-.lc a {
+.main-part-text a {
     text-decoration: none;
     color: #2c56a0;
 }
 
-.lc a:hover {
+.main-part-text a:hover {
     text-decoration: underline;
     color: #3a3a3a;
 }
@@ -148,14 +148,14 @@
     align-items: center;
 }
 
-.introduction {
+.reference-about-game {
     margin: 0 20px 20px 20px;
     padding: 5px;
     text-align: left;
     font-style: italic;
 }
 
-.introduction_reference {
+.introduction-about-game {
     margin: -30px 20px 20px 20px;
     padding: 5px;
     text-align: left;
@@ -167,7 +167,7 @@
     font-size: 12px;
 }
 
-.center_first_top {
+.main-part-title {
     display: flex;
     flex-direction: row;
 }
@@ -180,7 +180,7 @@
     color: #2c56a0;
 }
 
-.center_first_top h1 {
+.main-part-title h1 {
     display: flex;
     flex-grow: 1;
     margin: 0 0 0 1rem;
@@ -190,7 +190,7 @@
     color: #3a3a3a;
 }
 
-.center_first_top a {
+.main-part-title a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
@@ -200,7 +200,7 @@
     line-height: 16px;
 }
 
-.button_cod {
+.title-button {
     display: block;
     flex-grow: 0;
     text-decoration: none;
@@ -208,31 +208,15 @@
     font-weight: 600;
     letter-spacing: 0.15px;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 10px 50px 10px 0;
 }
 
-.button_chat {
-    padding: 10px;
-    display: block;
-    flex-grow: 1;
-    text-decoration: none;
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0.15px;
-    text-transform: uppercase;
-}
-
-.button_chat img {
+.title-button img {
     width: 13px;
     height: 13px;
 }
 
-.button_cod img {
-    width: 13px;
-    height: 13px;
-}
-
-.center_first_top a:hover {
+.main-part-title a:hover {
     color: #6d6d6d;
 }
 
