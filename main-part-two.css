@@ -34,6 +34,11 @@
     margin: 18px 0 9px 0;
 }
 
+.art-content h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .main-part-purchase {
     display: flex;
 }
@@ -61,7 +66,48 @@
     text-decoration: underline;
 }
 
-.main-part-stiv a{
+.main-part-player a{
     font-size: 12px;
+}
+
+.main-part-player {
     display: flex;
+    overflow: auto;
+}
+
+.game-process-stiv {
+    margin-right: 20px;
+    margin-bottom: 16px;
+    float: left;
+}
+
+.game-process-stiv a {
+    font-size: 12px !important;
+}
+
+.game-process-new-game {
+    width: 375px;
+    height:  211px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    float: right;
+}
+
+.game-process-new-game p {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin: -5px 0 10px 0;
+}
+
+.game-process-new-game i {
+    padding: 0 0 0 0;
+}
+
+.player-description i {
+    padding: 0 0 0 0;
+}
+
+.player-description a {
+    font-size: 14px;
 }
