@@ -145,7 +145,7 @@
 
 .image-block-table img{
     height: 20px;
-    margin: 2px 2px 5px 2px !important;
+    margin: 2px 2px 5px 2px;
 }
 
 .body-table-background li {
@@ -178,16 +178,16 @@
     font-size: 10px;
 }
 
-.raitings-company {
+.ratings-company {
     font-weight: 400;
     padding-left: 25px;
 }
 
-.raitings-company a {
+.ratings-company a {
     font-weight: 400;
 }
 
-.raitings-company b {
+.ratings-company b {
     color: #3a3a3a;
 }
 

@@ -80,7 +80,7 @@
     border: 1px solid rgba(0 0 0 /0.4)
 }
 
-.main-part-table h2 {
+.main-part-table-h2-top {
     color: #3a3a3a;
     font-size: 15.12px;
     margin: 2px 2px 0 2px;
@@ -90,6 +90,6 @@
     font-style: italic;
 }
 
-.main-part-table img {
+.main-part-table-img-top {
     margin: 5px 10px 10px 10px;
 }
