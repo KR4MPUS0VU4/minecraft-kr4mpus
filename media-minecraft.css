@@ -1,6 +1,6 @@
 @media screen and (max-width: 1300px) {
     .general-block{
         width: fit-content;
-        padding: 2px;
+        padding: 0;
     }
 }
